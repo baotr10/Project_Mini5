@@ -1,0 +1,33 @@
+/* MSSV: CE181662
+   Ho ten: Tran Gia Bao
+*/
+
+.quiz {
+    &__ques{
+        padding: 20px;
+    }
+
+    &__title {
+        text-align: center;
+        padding: 10px 0;
+        background-color: orange;
+        border-radius: 10px 10px 0 0;
+    }
+
+    &__body {
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+    &__numQues {
+        text-align: center;
+    }
+
+    &__item {
+        list-style: none;
+    }
+
+    &__input {
+        margin-right: 20px;
+    }
+}

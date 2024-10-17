@@ -1,0 +1,24 @@
+/* MSSV: CE181662
+   Ho ten: Tran Gia Bao
+*/
+
+.contact {
+    &__body {
+        margin-top: 20px;
+        border-radius: 10px;
+        border: 1px solid #dddddd;
+        background-color: #ffffff93;
+
+        &--head {
+            text-align: center;
+            background-color: orange;
+            padding: 10px;
+            color: #ffffff;
+            border-radius: 10px 10px 0 0;
+        }
+    }
+
+    &__form {
+        padding: 20px;
+    }
+}
